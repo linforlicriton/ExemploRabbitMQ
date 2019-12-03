@@ -10,7 +10,7 @@ public class Emissor {
 
   public static void main(String[] argv) throws Exception {
     ConnectionFactory factory = new ConnectionFactory();
-    factory.setUri("amqp://...");
+    factory.setUri("amqp://hsygwmxc:QFospEfkzoOCgsyJXJiz1K9Xi7_QMg8y@zebra.rmq.cloudamqp.com/hsygwmxc");
     Connection connection = factory.newConnection();
     Channel channel = connection.createChannel();
 
